@@ -3,6 +3,8 @@ os: linux
 files:
   - source: ./test.html
     destination: /var/www/html/
+  - source: ./test.html
+    destination: /var/www/html/poop
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
